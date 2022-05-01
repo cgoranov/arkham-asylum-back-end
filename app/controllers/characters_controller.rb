@@ -22,8 +22,10 @@ class CharactersController < ApplicationController
 
   # POST /characters or /characters.json
   def create
-    byebug
+    
     @character = Character.create(character_params)
+
+    # byebug
     
     render json: @character
 
