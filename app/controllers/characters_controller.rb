@@ -23,11 +23,13 @@ class CharactersController < ApplicationController
   # POST /characters or /characters.json
   def create
     
-    @character = Character.create(character_params)
+    @character = Character.new(character_params)
 
-    # byebug
-    
-    render json: @character
+    if @character.save
+        render json: { status: 201, character: @character }
+    else
+        render json:  { status: 422, errors: @character.errors.full_messages.join(", ") }
+    end
 
     # respond_to do |format|
     #   if @character.save
