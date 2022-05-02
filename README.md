@@ -25,13 +25,19 @@ bundle install
 rails db:migrate
 ```
 
-4. Start the local rails server:
+4. Add the seed data
+
+```bash
+rails db:seed
+```
+
+5. Start the local rails server:
 
 ```bash
 rails s
 ```
 
-5. Your backend is now up and running, go ahead and run your [frontend](https://github.com/cgoranov/arkham-asylum-front-end) as well! Enjoy our application.
+6. Your backend is now up and running, go ahead and run your [frontend](https://github.com/cgoranov/arkham-asylum-front-end) as well! Enjoy our application.
 
 
 ## Contributing
