@@ -13,27 +13,25 @@ Arkham Asylum was created with a React/Redux frontend and Ruby on Rails API back
 ```bash
 git clone git@github.com:cgoranov/arkham-asylum-back-end.git
 ```
-2. Open the frontend repository into your local IDE.
-
-3. Inside the console run 'bundle install' to install the necessary Ruby Gems and dependencies:
+2. Inside the console run 'bundle install' to install the necessary Ruby Gems and dependencies:
 
 ```bash
 bundle install
 ```
 
-4. Run the database migrations:
+3. Run the database migrations:
 
 ```bash
 rails db:migrate
 ```
 
-5. Start the local rails server:
+4. Start the local rails server:
 
 ```bash
 rails s
 ```
 
-6. Your backend is now up and running, go ahead and run your [frontend](https://github.com/cgoranov/arkham-asylum-front-end) as well! Enjoy our application.
+5. Your backend is now up and running, go ahead and run your [frontend](https://github.com/cgoranov/arkham-asylum-front-end) as well! Enjoy our application.
 
 
 ## Contributing
