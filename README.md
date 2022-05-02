@@ -1,25 +1,47 @@
-# README
+# Arkham Asylum
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Arkham Asylum is a interactive experience for the die-hard Batman fans! Arkham Asylum page will show you fun facts about the currently captured criminals while the Most Wanted page will allow you to add any rogues you do not see locked up! 
 
-Things you may want to cover:
+## Overview
 
-* Ruby version
+Arkham Asylum was created with a React/Redux frontend and Ruby on Rails API backend. I hope you enjoy!
 
-* System dependencies
+## Local Installation
 
-* Configuration
+1. Clone this repo:
 
-* Database creation
+```bash
+git clone git@github.com:cgoranov/arkham-asylum-back-end.git
+```
+2. Open the frontend repository into your local IDE.
 
-* Database initialization
+3. Inside the console run 'bundle install' to install the necessary Ruby Gems and dependencies:
 
-* How to run the test suite
+```bash
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Run the database migrations:
 
-* Deployment instructions
+```bash
+rails db:migrate
+```
 
-* ...
-# arkham-asylum-back-end
+5. Start the local rails server:
+
+```bash
+rails s
+```
+
+6. Your backend is now up and running, go ahead and run your [frontend](https://github.com/cgoranov/arkham-asylum-front-end) as well! Enjoy our application.
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate. You may reach out to me at @cgoranov@gmail.com.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
